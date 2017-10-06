@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        /*
         Scanner keyInput = new Scanner(System.in);
         Scanner stringInput = new Scanner(System.in);
 
@@ -51,6 +52,13 @@ public class Main {
            }
 
         }
+*/
+
+        BankAccount myAccount = new BankAccount("Sally Jones", 1000);
+        myAccount.deposit(505.22);
+        System.out.println(myAccount.accountBalance);
+        myAccount.withdraw(100);
+        System.out.println("The Sally Jones account balance is, " + myAccount.accountBalance);
 
     }
 }
