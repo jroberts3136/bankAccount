@@ -24,9 +24,4 @@ public class BankAccount {
             System.out.println("You cannot withdraw that much. Your balance is only $" + accountBalance + ".");
         }
     }
-    /*
-    public void pncWithdraw(double pncWithdraw){
-
-    }
-    */
 }
